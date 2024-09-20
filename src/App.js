@@ -3,22 +3,14 @@ import './App.css';
 
 function App() {
   return (
+      <header>
+        <h1>Spark - Stal i Drewno</h1>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <a href="">Sklep</a>
+      <a href="">Wizualizacje</a>
+      <a href="">Oferta</a>
     </div>
+      </header>
   );
 }
 
